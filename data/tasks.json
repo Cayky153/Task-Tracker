@@ -1,7 +1,9 @@
-{
-  "id": 1769033565485,
-  "description": "lavar a louca1",
-  "status": "todo",
-  "createdAt": "2026-01-21T22:12:45.485Z",
-  "updatedAt": "2026-01-21T22:12:45.487Z"
-}
+[
+  {
+    "id": 1,
+    "description": "cozinhar",
+    "status": "done",
+    "createdAt": "2026-01-22T20:57:17.828Z",
+    "updatedAt": "2026-01-22T22:09:19.527Z"
+  }
+]
