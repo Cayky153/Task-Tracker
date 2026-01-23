@@ -4,21 +4,21 @@ import fs from "fs"
 
 
 //função que lê o arquivo
-  const readFromFile= fileName =>{
-    if(!fs.existsSync(fileName)){
+const readFromFile = fileName => {
+    if (!fs.existsSync(fileName)) {
         return null
     }
-    return fs.readFileSync(fileName,'utf-8')
+    return fs.readFileSync(fileName, 'utf-8')
 }
 //função de transformar o arquivo lido em um objeto 
-const readJson = fileName =>{
- 
+const readJson = fileName => {
+
     const readFile = readFromFile(fileName)
 
-    if(!readFile){
+    if (!readFile) {
         return readFile
     }
     return JSON.parse(readFile)
 }
-export {readFromFile}
-export {readJson}
+export { readFromFile }
+export { readJson }

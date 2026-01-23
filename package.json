@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "type": "module",
+    "bin": {
+    "task-cli": "./src/index.js"
+  },
   "dependencies": {
     "uuid": "^13.0.0"
   }
