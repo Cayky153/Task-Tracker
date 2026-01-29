@@ -74,10 +74,10 @@ task-cli mark-done <ID>
 
 
 
-## Link do projeto
-
+## Referência
+Implementação própria baseada no exercício Task Tracker do site roadmap ToBackend.
 https://roadmap.sh/projects/task-tracker
 
-# Project Hub
+# Hub de Projetos
 Acesse a lista completa de projetos semelhantes aqui<br>
 https://github.com/Cayky153/Projetos-Iniciantes-Backend
